@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THV Ingenieria</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <meta name="description" content="Contribuimos con soluciones integrales referentes a la ingeniería mecánica. Brindamos asistencia técnica especializada en ingeniería para comprender y resolver problemáticas.">
     <meta name="keywords" content="Ingenieria, mecánica, ingenieria mecanica, proyectos, metalmecanica, estructuras, estructural, estructura, parral, piping, planos">
     <link rel="shortcut icon" href="./img/favicon_io/favicon-32x32.png" type="image/x-icon">
 
-    <enlace rel="preconectar" href="https://fonts.googleapis.com">
+    <!-- <enlace rel="preconectar" href="https://fonts.googleapis.com">
         <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
         <enlace href="https: //fonts.googleapis.com/css2? familia= Abierto+Sans:ital,peso@0,300;0,500;0,800;1,300 & display=swap" rel="stylesheet">
 
@@ -43,28 +44,79 @@
         justify-content: center;
         align-items: center;
     }
-
-
-    </style>
+    </style> -->
 </head>
 <body>
-    <header>
-        <img src="./img/portada.svg" alt="Portada" width="400">
-        <nav style="text-align: right;">
-            <a href=./ >Inicio</a>
-            <a href=./Servicios>Servicios</a>
-            <a href=./Portfolio>Portfolio</a>
-            <a href=./Contacto>Contacto</a>
-        </nav>
-    
-    <section class="textos-header">
-        <h1>Nos especializamos en el diseño de tu proyecto </h1>
-    </section>
-
-    <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,50.10 C231.00,174.53 354.02,-88.29 500.00,50.10 L504.13,106.83 L-0.94,108.83 Z" style="stroke: none; fill: #FF9900;"></path></svg></div>
+    <header >
+        <div class="back">
+            <div class="menu container">
+                <img src="./img/portada.svg"  class="logo-empresa" alt="">
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="./img/barra-de-menus.png" class="menu-icono" alt="">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/servicios/">Servicios</a></li>
+                        <li><a href="/portfolio/">Porfolio</a></li>
+                        <li><a href="/contacto/">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-        
-    <main>
+    <h4>PANTALLA PRINCIPAL</h4>
+    
+
+    <footer class="footer">
+
+        <div class="container-footer">
+
+            <div class="footer-row">
+
+                <div class="footer-links">
+                    <h4>Compañia</h4>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Nuestras Servicios</a></li>
+                        <li><a href="#">Politica de privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="#">+54 3466 632380</a></li>
+                        <li><a href="#">Thv.ingenieria@gmail.com</a></li>
+                        <li><a href="#">Santa fe 1462, Rosario</a></li>
+                </div>
+                <div class="footer-links">
+                    <h4>Secciones</h4>
+                    <ul>
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/servicios/">Servicios</a></li>
+                        <li><a href="/portfolio/">Porfolio</a></li>
+                        <li><a href="/contacto/">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <ul>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </ul>
+                </div>
+                
+
+            </div>
+
+        </div>
+
+
+
+    </footer>
+    <!-- <main>
         <section class="contenedor sobre-nosotros">
             <p> <strong>THV</strong> es una empresa es una empresa dedicada a la prestación de soluciones de ingeniería y consultoría, ademas, se destaca por su enfoque técnico-comercial. Está compuesta por un equipo de profesionales ingenieros mecánicos con amplia experiencia en diversos sectores de la industria.</p>
             
@@ -72,8 +124,8 @@
 
             <p>Nos especializamos en el diseño personalizado de proyectos. Trabajamos de cerca contigo para entender tus necesidades y objetivos, y luego creamos soluciones innovadoras y funcionales que se adapten a tus requerimientos específicos. Nuestro enfoque está en brindarte un diseño de alta calidad que cumpla con tus expectativas y supere tus necesidades. Llevamos a cabo el diseño de tu proyecto de manera profesional y eficiente.</p> <br>
             
-            <!-- iconos para interaccion https://www.flaticon.es/icon-fonts-mas-descargados -->
-            <section>
+            iconos para interaccion https://www.flaticon.es/icon-fonts-mas-descargados -->
+            <!-- <section>
                 <div class="center-container">
                     <div class="button-container">
                         <a href=./Servicios> <img src="./servicios/img/apreton-de-manos.svg" alt="" width="50%"> <br> SERVICIOS</a> 
@@ -93,9 +145,9 @@
 
             <p style="text-align: center;"><strong>Nos comprometemos a brindarte un servicio de calidad y a estar a tu lado en cada etapa de tu proyecto.</strong></p>
         </section>
-    </main>
+    </main> -->
 
-    <h2 style="text-align: center;"> <a href="./portfolio/" > Nuestros proyectos destacados </a></h2>
+    <!-- <h2 style="text-align: center;"> <a href="./portfolio/" > Nuestros proyectos destacados </a></h2>
 
     <h4>Ingenierias de detalle</h4>
 
@@ -138,6 +190,6 @@
         </section>
     </div>
 
-   <footer style="text-align: right;"> <small>Realizado por Jeremias Calzada te la deje </small></footer>
+   <footer style="text-align: right;"> <small>Realizado por Jeremias Calzada te la deje </small></footer> -->
 </body>
 </html>
