@@ -18,8 +18,15 @@ body {
 }
 
 .back {
-    padding: 40px 0;
-    background-color: #f9c16f;
+    width: 100%;
+    height: 235px;
+    background: #f9c16f;
+    background: -webkit-linear-gradient(to right, #f9c16f, #f9c16f) url(./img/thisisengineering-raeng-83udtzyaTS4-unsplash\ \(1\).jpg);
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.459), hsla(0, 0%, 45%, 0.664)), url(./img/thisisengineering-raeng-83udtzyaTS4-unsplash\ \(1\).jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    position: absolute;
 }
 
 .menu {
@@ -67,6 +74,17 @@ body {
     display: none;
 }
 
+.title{
+    padding: 90px;
+    text-align: center;
+    color: black;
+   }
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
 
 /* PARA QUE EL HEADER SEA RESPONSIVE */
 @media(max-width:991px){
@@ -98,6 +116,18 @@ body {
     #menu:checked ~ .navbar {
         display: initial;
     }
+
+    .title{
+        padding: 20px;
+        text-align: center;
+        color: black;
+        }
+    
+    .wave{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        }
 }
 
 /* ESTILO FOOTER */
