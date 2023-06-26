@@ -20,7 +20,7 @@ body {
 .back {
     width: 100%;
     height: 70px;
-    background: #ffffff;
+    background: #e7dfdf;
     position: fixed;
     /* background: -webkit-linear-gradient(to right, #f9c16f, #f9c16f) url(./img/technical-drawing-3324368.jpg);
     background: linear-gradient(to right, hsla(0, 0%, 100%, 0.459), hsla(0, 0%, 45%, 0.664)), url(./img/technical-drawing-3324368.jpg);
