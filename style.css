@@ -13,7 +13,7 @@ body {
 
 .fondo-body {
     opacity: 20%;
-    background-image: url(/img/thisisengineering-raeng-j0kqfj1m0lc-unsplash.jpg)
+    background-image: url('/img/thisisengineering-raeng-j0kqfj1m0lc-unsplash.jpg')
 }
 
 /* ESTILO HEADER */
