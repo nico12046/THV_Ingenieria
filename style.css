@@ -168,19 +168,22 @@ body {
 
 .social-links a {
     display: inline-block;
-    min-height: 40px;
-    width: 40px;
+    min-height: 60px;
+    width: 60px;
     background-color: rgba(255, 255, 255, 0.2);
     margin: 0 10px 10px 0;
     text-align: center;
-    line-height: 40px;
+    line-height: 60px;
     border-radius: 50%;
     color: #ffffff;
     transition: all .5s ease;
+    font-size: 30px;
 }
 .social-links a:hover {
     background-color: #00C3FF;
 }
+
+
 
 /* PARA QUE EL FOOTER SEA RESPONSIVE */
 
