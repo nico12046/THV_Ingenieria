@@ -23,7 +23,7 @@ body {
 }
 
 .back {
-    padding: 65px 0;
+    padding: 50px 0;
     background-color: #f9c16f;
 
 }
@@ -68,6 +68,8 @@ body {
 .logo-empresa  {
     padding: 8px 0;
     width: 200px;
+    margin-left: 50px;
+
 }
 
 .menu label {
@@ -83,22 +85,23 @@ body {
 
 @media(max-width:991px){
     .menu {
-        padding: 10px;
+        padding: 0px;
     }
 
     .menu label {
         display: initial;
+        width: 65px;
     }
 
     .back{
         padding: 50px 0;
     }
+
     .logo-empresa  {
         padding: 8px 0;
-        text-align: center;
-        display: block;
         width: 200px;
     }
+
     .menu .navbar {
         position: absolute;
         top: 100%;
