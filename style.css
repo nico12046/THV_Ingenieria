@@ -8,12 +8,7 @@
 
 body {
     background: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.fondo-body {
-    opacity: 20%;
-    background-image: url('/img/thisisengineering-raeng-j0kqfj1m0lc-unsplash.jpg');
+    font-family: 'Nunito', sans-serif;
 }
 
 /* ESTILO HEADER */
@@ -122,6 +117,12 @@ body {
 
 }
 
+
+
+
+
+
+
 /* ESTILO FOOTER */
 .container-footer {
     max-width: 1200px;
@@ -139,8 +140,8 @@ body {
 }
 
 .footer-links {
-    width: 25%;
-    padding: 0 15px;
+    width: 33%;
+    padding: 0 40px;
 }
 
 .footer-links h4 {
@@ -177,7 +178,7 @@ body {
     line-height: 60px;
     border-radius: 50%;
     color: #ffffff;
-    transition: all .5s ease;
+    transition: all .7s ease;
     font-size: 30px;
 }
 .social-links a:hover {
